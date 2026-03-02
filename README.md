@@ -5,11 +5,11 @@
 [![Code Coverage](https://img.shields.io/badge/coverage-75%25-green.svg)](https://github.com/sahmadov/bigquery-backup-restore-service)
 [![Docker Image](https://img.shields.io/badge/Docker-ghcr.io-blue?logo=docker)](https://github.com/sahmadov/bigquery-backup-restore-service/pkgs/container/bigquery-backup-restore-service)
 
-> An open source scalable and multi threaded solution that supports many formats for automating backups and restores of BigQuery datasets and tables. You can backup entire datasets or specific tables export to common formats like Avro, CSV, Parquet or JSON and restore data exactly when you need it
+> An open source, scalable and multi threaded solution that supports many formats for automating backups and restores of BigQuery datasets and tables. You can backup entire datasets or specific tables export to common formats like Avro, CSV, Parquet or JSON and restore data exactly when you need it
 
 ## **Why This Project Exists**
 
-Organizations that use BigQuery will often find themselves in a position where fundamental reliability features—multi-region deployments, cross region replication, time travel, and auto failover functionalities are not enough. Certain regulatory requirements or organizational policies requires that backups must be stored completely outside of the Google Cloud ecosystem such as on-prem or AWS or even Azure. Thats exactly the issue this service attempts to address.
+Organizations that use BigQuery will often find themselves in a position where fundamental reliability features such as multi-region deployments, cross region replication, time travel, and auto failover functionalities are not enough. Certain regulatory requirements or organizational policies requires that backups must be stored completely outside of the Google Cloud ecosystem such as on-prem or AWS or even Azure. Thats exactly the issue this service attempts to address.
 
 ### A Practical Solution
 
